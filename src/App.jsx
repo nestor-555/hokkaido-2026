@@ -85,7 +85,7 @@ const App = () => {
   };
 
   // --- Gemini API ---
-  const apiKey = ""; 
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY || ""; 
 
   const callGemini = async (prompt, systemInstruction = "") => {
     setAiLoading(true);

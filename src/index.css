@@ -3,18 +3,17 @@
 @tailwind utilities;
 
 :root {
-  background-color: #0f172a; /* slate-900 */
+  background-color: #ffffff;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #0f172a; /* slate-900 */
+  background-color: #ffffff;
   width: 100%;
   overflow-x: hidden;
 }
 
-/* 隱藏 Scrollbar 但保持功能 */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

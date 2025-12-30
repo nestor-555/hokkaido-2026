@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/hokkaido-2026/',
+  server: {
+    allowedHosts: true
+  }
 })

@@ -1,0 +1,5 @@
+// 一張極簡的淺色雜訊/雪花紋理 (Base64)
+// 來源：透明雜訊紋理，疊加白色背景
+const snowPattern = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAUVBMVEWFhYWDg4N8fHzMzMxqaWmNjY2YmJiZmZlLS0uhoaGgn5+tra2np6eBgYF6enqwsLCzs7N1dXVvb293d3eHh4eKioqSkpKXl5eampqjo6Oqqqqy09D3AAAAG3RSTlMAQD9/n7+/gL+/v79/v7+/f3+/v39/v7+/f7+8Xq3JAAAAhklEQVR42u3PMQ7CQAxE0S4eCwnBEdLy/jetCiREd0u28i8z80u258f5+R6f28fr+XrdP9f9tX3uH+/b5/v5/X7+EBAQEBISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIScvwCv74C8wf1y8oAAAAASUVORK5CYII=";
+
+export default snowPattern;

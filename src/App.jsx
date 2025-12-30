@@ -67,19 +67,34 @@ const App = () => {
   };
 
   const mapLinks = {
-    chitose: "https://maps.app.goo.gl/uX3L5pM57476eE638", jnet: "https://booking.cars.travel.rakuten.co.jp/cars/rcf140a.do?jid=30&rcid=3&jcid=7000",
-    wbf: "https://maps.app.goo.gl/3547mXp9XN9vD347A", aeon: "https://maps.app.goo.gl/N67y9vW8x7vD347A",
-    christmasTree: "https://maps.app.goo.gl/qJpPrhJ7F8vD347A", bluePond: "https://maps.app.goo.gl/v3x7vD347A",
-    ningle: "https://maps.app.goo.gl/T4f9vW1pM", asahiyamaZoo: "https://maps.app.goo.gl/11x7vD347A",
-    clarkHorse: "https://maps.app.goo.gl/D2L9n6QzXF1u6XyN8", mtUsu: "https://maps.app.goo.gl/13x7vD347A",
-    toyaKanko: "https://maps.app.goo.gl/16x7vD347A", jigokudani: "https://maps.app.goo.gl/18x7vD347A",
-    sunnyHome: "https://maps.app.goo.gl/VXohxZ8Vioqds6mw8", mtMoiwa: "https://maps.app.goo.gl/Nn3N4N5N6N7N8",
-    beerMuseum: "https://maps.app.goo.gl/B1B2B3B4B5", okurayama: "https://maps.app.goo.gl/O1O2O3O4O5",
-    hitsujigaoka: "https://maps.app.goo.gl/H1H2H3H4H5", otaruCanal: "https://maps.app.goo.gl/19x7vD347A",
-    mitsuiOutlet: "https://maps.app.goo.gl/20x7vD347A", hokkaidoJingu: "https://maps.app.goo.gl/JinguMap123",
-    shiroiKoibito: "https://maps.app.goo.gl/ShiroiMap456", odoriPark: "https://maps.app.goo.gl/OdoriMap789",
-    tanukikoji: "https://maps.app.goo.gl/TanukiMap000", sunagawaSA: "https://maps.app.goo.gl/SunagawaSAMap",
-    wattsuSA: "https://maps.app.goo.gl/WattsuSAMap", uzusanSA: "https://maps.app.goo.gl/UsuzanSAMap"
+    chitose: "https://www.google.com/maps/search/?api=1&query=新千歲機場+一幻拉麵", 
+    jnet: "https://www.google.com/maps/search/?api=1&query=J-Net+Rent+A+Car+Sapporo",
+    wbf: "https://www.google.com/maps/search/?api=1&query=Hotel+WBF+Grande+Asahikawa", 
+    aeon: "https://www.google.com/maps/search/?api=1&query=AEON+Mall+Asahikawa+Ekimae",
+    christmasTree: "https://www.google.com/maps/search/?api=1&query=Christmas+Tree+Biei", 
+    bluePond: "https://www.google.com/maps/search/?api=1&query=Shirogane+Blue+Pond",
+    ningle: "https://www.google.com/maps/search/?api=1&query=Ningle+Terrace", 
+    asahiyamaZoo: "https://www.google.com/maps/search/?api=1&query=Asahiyama+Zoo",
+    clarkHorse: "https://www.google.com/maps/search/?api=1&query=Clark+Horse+Garden", 
+    mtUsu: "https://www.google.com/maps/search/?api=1&query=Usuzan+Ropeway",
+    toyaKanko: "https://www.google.com/maps/search/?api=1&query=Toya+Kanko+Hotel", 
+    jigokudani: "https://www.google.com/maps/search/?api=1&query=Noboribetsu+Jigokudani",
+    lakeHillFarm: "https://www.google.com/maps/search/?api=1&query=Lake+Hill+Farm",
+    sunnyHome: "https://www.google.com/maps/search/?api=1&query=Sapporo+Sunny+Home", // 泛指，因 Airbnb 無精確地標，建議出發前確認地址
+    mtMoiwa: "https://www.google.com/maps/search/?api=1&query=Mt.+Moiwa+Ropeway",
+    beerMuseum: "https://www.google.com/maps/search/?api=1&query=Sapporo+Beer+Museum", 
+    okurayama: "https://www.google.com/maps/search/?api=1&query=Okurayama+Ski+Jump+Stadium",
+    hitsujigaoka: "https://www.google.com/maps/search/?api=1&query=Sapporo+Hitsujigaoka+Observation+Hill", 
+    otaruCanal: "https://www.google.com/maps/search/?api=1&query=Otaru+Canal",
+    mitsuiOutlet: "https://www.google.com/maps/search/?api=1&query=Mitsui+Outlet+Park+Sapporo+Kitahiroshima", 
+    hokkaidoJingu: "https://www.google.com/maps/search/?api=1&query=Hokkaido+Jingu",
+    shiroiKoibito: "https://www.google.com/maps/search/?api=1&query=Shiroi+Koibito+Park", 
+    odoriPark: "https://www.google.com/maps/search/?api=1&query=Odori+Park",
+    tanukikoji: "https://www.google.com/maps/search/?api=1&query=Tanukikoji+Shopping+Arcade", 
+    sunagawaSA: "https://www.google.com/maps/search/?api=1&query=Sunagawa+Service+Area",
+    wattsuSA: "https://www.google.com/maps/search/?api=1&query=Wattsu+Service+Area", 
+    uzusanSA: "https://www.google.com/maps/search/?api=1&query=Usuzan+Service+Area",
+    hokkaidoUniv: "https://www.google.com/maps/search/?api=1&query=Hokkaido+University+Gingko+Avenue"
   };
 
   const itinerary = [
